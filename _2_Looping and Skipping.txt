@@ -1,0 +1,6 @@
+# for  loop in this bash only the double parenthesis is allowed ,double parenthesis is used of airthmetic expression of programming language there is not need to use dollar sign inside the double parenthesis 
+
+for((i=1;i<100;i+=2))
+#parenthesis is used of airthmetic expression of programming language,dollor sign is used to access the variable value 
+    do echo $i;
+    done;
