@@ -1,0 +1,4 @@
+read name;
+# name is the variable directly read from stdinpt
+# dollor sign is used to access the variable value 
+echo Welcome $name;
