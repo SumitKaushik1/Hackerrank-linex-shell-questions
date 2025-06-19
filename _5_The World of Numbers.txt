@@ -1,0 +1,9 @@
+read x;read y;
+# double parenthesis is allowed ,double parenthesis is used of airthmetic expression of programming language there is not need to use dollar sign inside the double parenthesis 
+# and double parentheis supports these exptessions in double parenthesis we donnot use $ 
+((sum=x+y));
+((difference=x-y));
+((product=x*y));
+((quotient=x/y));
+#dollar is used to tell teh value of that variable 
+echo  $sum$'\n'$difference $'\n'$product$'\n'$quotient;
