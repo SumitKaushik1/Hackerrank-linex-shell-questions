@@ -1,0 +1,10 @@
+read x;
+read y;
+read z;
+# inside [[we use $ to get actual value ]] [[ also support && operator and (( does not support))]]
+if [[ $x == $y && $x == $z ]];then
+echo "EQUILATERAL";
+elif [[ $x == $y || $x == $z || $z == $y ]] ;then 
+echo "ISOSCELES";
+else echo "SCALENE";
+fi;
