@@ -1,0 +1,10 @@
+read x
+# is used to access the value 
+# use $ inside  when you use [[]] double square brackets 
+# || or is supported by the ]] brackets  not by ))
+if [[ $x == 'Y' || $x == 'y' ]]
+then
+echo "YES"
+else
+echo "NO"
+fi
