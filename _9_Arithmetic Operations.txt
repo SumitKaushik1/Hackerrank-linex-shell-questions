@@ -1,0 +1,13 @@
+read string;
+# $ will print the value of the string ,if you write string it takes as string 
+printf %.3f $(bc -l <<< $string);
+
+# -l is the liberary which will be loaded for bc for complex mathmatical calculations
+
+# dollar sign mean whatever inside evalute that and return that 
+#$(will be executed inside it and hand over)
+
+
+# %.3f , data specifier ,.3 means after decimal 3 digits allowed ,f means float 
+
+# to pass string we use <<< ,to pass number of lines we use << ,to pass file we use < ,bc is the command to 
