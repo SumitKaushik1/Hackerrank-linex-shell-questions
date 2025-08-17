@@ -1,0 +1,22 @@
+read number_of_times;
+sum=0;
+# no requirement of $ inside the (()) 
+for((i=1;i<=number_of_times;i++))
+do
+read element;
+#inside the double quotes ,$ not allwoed you can do calculation like programming 
+((sum+=element));
+#echo $sum;
+done;
+printf %.3f $(bc -l <<< $sum/$number_of_times);
+# $sum ,execute sum ie come out string,string/string given to bc with lthe liberary of maths , <<< to pass string $(to execute string inside)
+# -l is the liberary which will be loaded for bc for complex mathmatical calculations
+
+# dollar sign mean whatever inside evalute that and return that 
+#$(will be executed inside it and hand over)
+
+
+# %.3f , data specifier ,.3 means after decimal 3 digits allowed ,f means float 
+
+# to pass string we use <<< ,to pass number of lines we use << ,to pass file we use < ,bc is the command to 
+
