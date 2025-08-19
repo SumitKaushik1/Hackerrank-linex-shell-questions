@@ -1,0 +1,12 @@
+#read is the command line is variable ,$ for the take out the value of line 
+
+while read line
+do
+ cut -c3 <<< $line
+
+done 
+# -c for character 3 means for 3 rd character , 3.6 bmean 3 adn 6 th charactes ,3-6 ie 3 to  characters ,$line  whatever the line in $ goest to cut 
+
+# for passing the string we have <<< ,for appending the text form the file  <<,for passing the text from file <
+
+#The cut command in UNIX is a command for cutting out the sections from each line of files and writing the result to standard output. ie it will cut and automaticlaly give on screen and no need to echo
