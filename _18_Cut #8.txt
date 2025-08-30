@@ -1,0 +1,21 @@
+#read is the command line is variable ,$ for the take out the value of line 
+#read is the command line is variable ,$ for the take out the value of line 
+
+#by defautl delimiter is teh tab ie when you click on the tab button then then it moves to different words
+# so when we use the -f it means it takes the delimiter by default "tab" seperate after the sentence is seperated in different fields then we can print according to fields liek 1,2,3 fiedl 
+
+#while read line
+#do
+#cut -d " " -f 1,2,3 <<< $line
+#done
+# in above the seperation is happened according to " " then after that whatever the fields will  it will seperted it will prient 
+#1   2   3  ,filds means column seperated by delemiter 
+while read line
+do
+cut -d' ' -f 1-3 <<< $line
+done 
+# -c for character 3 means for 3 rd character , 3.6 bmean 3 adn 6 th charactes ,3-6 ie 3 to  characters ,$line  whatever the line in $ goest to cut 
+
+# for passing the string we have <<< ,for appending the text form the file  <<,for passing the text from file <
+
+#The cut command in UNIX is a command for cutting out the sections from each line of files and writing the result to standard output. ie it will cut and automaticlaly give on screen and no need to echo
