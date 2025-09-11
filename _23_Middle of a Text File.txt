@@ -1,0 +1,10 @@
+cat > file.txt
+head -n 22 file.txt | tail -n 11;
+
+# | is the sign of pipe ie whatever the output comes out of it head -n 22 file.txt  it goes to command tail -n 11
+
+# # for passing the string to find using the cat command  >>>,for appending the text to the the  file  >> using the cat command ,for passing the text to  file > from cat commnad 
+# now here it will hold till input is given to file then file.txt will have the input till next line 
+
+
+# -n to tell number of line it has to print from file.txt from top
