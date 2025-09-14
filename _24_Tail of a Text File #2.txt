@@ -1,0 +1,10 @@
+cat > file.txt;
+tail -c 20 file.txt;
+#20 is the bytes 
+
+ # for passing the string to find using the cat command  >>>,for appending the text to the the  file  >> using the cat command ,for passing the text to  file > from cat commnad 
+# now here it will hold till input is given to file then file.txt will have the input till next line 
+
+# 1 byte is 1 character ,20 bytes ie 20 characters 
+
+# -n to tell number of line it has to print from file.txt from top
