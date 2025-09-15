@@ -1,0 +1,6 @@
+# for passing the string we have <<< ,for appending the text form the file  <<,for passing the text from file <
+while read line
+do 
+
+tr -d "a-z" <<< $line 
+done 
