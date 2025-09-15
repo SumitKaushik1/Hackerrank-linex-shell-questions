@@ -1,9 +1,0 @@
-cat > file.txt;
-head -c 20 file.txt
-
-# in linex 1 byte is 1 character -c for character and 20 bytes ie 20 characters 
-# # for passing the string to find using the cat command  >>>,for appending the text to the the  file  >> using the cat command ,for passing the text to  file > from cat commnad 
-# now here it will hold till input is given to file then file.txt will have the input till next line 
-
-
-# -n to tell number of line it has to print from file.txt from top
