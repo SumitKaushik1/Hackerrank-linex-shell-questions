@@ -1,0 +1,20 @@
+
+
+# double parenthess b/z ie supports the airthmetic operations ,read for read line  and  if tr " ()" "[]" <  <text> ,double parentheis for the file name if file name 
+
+# for passing the string we have <<< ,for appending the text form the file  <<,for passing the text from file <
+
+# tr command to replace or delete 
+
+# it is not taking the last input so either use the 
+#either you have use one more time input using while loop 
+#while read input; do 
+  #  echo $input | tr "()" "[]"
+#done
+ #   echo $input | tr "()" "[]"
+
+#or you can take for loop run as maximum number of times as you need as input 
+for((i=0;i<3;i++)){
+    read line
+    tr "()" "[]" <<< $line
+}
