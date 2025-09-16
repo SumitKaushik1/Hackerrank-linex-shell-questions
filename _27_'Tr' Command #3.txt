@@ -1,0 +1,7 @@
+# for passing the string we have <<< ,for appending the text form the file  <<,for passing the text from file <
+#- s for squezzing  
+
+while read line
+do
+tr -s " " <<< $line
+done 
