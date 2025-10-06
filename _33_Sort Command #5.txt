@@ -1,0 +1,7 @@
+cat >>file.txt;# # for passing the string to find using the cat command  >>>,for appending the text to the the  file  >> using the cat command ,for passing the text to  file > from cat commnad 
+# now here it will hold till input is given to file then file.txt will have the input till next line 
+
+
+# -t measn for specifiying the field sepeartor ie two fields or columsn are sperated by tab here $ to take out the value of '\t'  -k to specify column  2 second  -n to tell it is number -r means reverse ie descengin order  
+
+sort  -t $'\t'  -k 2 -n -r        file.txt;
