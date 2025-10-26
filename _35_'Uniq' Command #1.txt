@@ -1,0 +1,7 @@
+cat >> line.txt;
+# >> for appending ,> for adding the text,for >>> for addding the string 
+# file line.txt is created  then standard input is given ie input given to program 
+
+uniq line.txt;
+
+#only show the distinct lines
