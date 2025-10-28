@@ -1,0 +1,5 @@
+cat > line.txt | uniq -c
+
+ uniq -c line.txt | cut -c 7-
+ 
+ # it means out put goes to cut -c for characters , 7th character to end it will print 
