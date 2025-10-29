@@ -1,0 +1,6 @@
+cat >> file.txt;
+
+uniq -c -i file.txt | cut -c 7-
+
+# -c for giving the number of repetition and -i for case insensitive 
+# cut -c for characters ,ie from 7 character to end print 
