@@ -1,0 +1,3 @@
+cat >>file.txt;
+uniq -u file.txt;
+# it will print only unique lines or distinct lines -u 
