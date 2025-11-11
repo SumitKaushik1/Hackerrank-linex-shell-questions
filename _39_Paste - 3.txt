@@ -1,0 +1,9 @@
+cat >> line.txt;
+# >> for appending ,> for adding the text,for >>> for addding the string 
+
+
+paste -s line.txt;
+
+# file line.txt is created  then standard input is given ie input given to program #Paste command is one of the useful commands in Unix or Linux operating system. It is used to join files horizontally (parallel merging) by outputting lines consisting of lines from each file specified, separated by tab as delimiter, to the standard output. When no file is specified, or put dash - instead of file name, paste reads from standard input and gives output as it is until a interrupt command Ctrl c is given. 
+
+#-s (serial) We can merge the files in sequentially manner using the -s option. It reads all the lines from a single file and merges all these lines into a single line with each line separated by tab. And these single lines are separated by newline.
