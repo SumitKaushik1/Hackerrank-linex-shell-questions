@@ -1,0 +1,32 @@
+cat >> line.txt;
+# >> for appending ,> for adding the text,for >>> for addding the string 
+# file line.txt is created  then standard input is given ie input given to program.
+
+cat line.txt |  paste - - -;
+
+# | is the pipleline ie is the output of the left side goes to command  ,- - - three hypens menas 3 rows need 
+
+
+# or   paste - - - < line.txt;
+
+#When referring to combining "3 consecutive lines into a single line," it means taking three consecutive lines of text from a file and merging them into one line. Each line is usually separated by a newline character ("\n"), and combining them means removing those newline characters and creating a single line of text.
+
+#Here's an example to illustrate this concept. Let's say you have a file with the following content:
+
+#arduino
+#Copy code
+#Line 1: This is the first line.
+#Line 2: This is the second line.
+#Line 3: This is the third line.
+#Line 4: This is the fourth line.
+#If you use a command like paste -d- -s -N3 filename, it would combine every three consecutive lines into a single line using a hyphen as a delimiter. The result might look like this:
+
+#arduino
+#Copy code
+#This is the first line.-This is the second line.-This is the third line.
+#This is the fourth line.
+#Here, the first line consists of the content from lines 1, 2, and 3 of the original file, separated by hyphens. The second line remains unchanged because it didn't have two additional lines following it. This can be a useful operation when you want to reformat or process data in a specific way, such as preparing it for further analysis or presentation.
+
+
+
+
