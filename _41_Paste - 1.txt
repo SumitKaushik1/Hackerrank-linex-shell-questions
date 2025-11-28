@@ -1,0 +1,7 @@
+
+cat >>file.txt;# # for passing the string to find using the cat command  >>>,for appending the text to the the  file  >> using the cat command ,for passing the text to  file > from cat commnad 
+# now here it will hold till input is given to file then file.txt will have the input till next line 
+
+
+paste -s -d ";" file.txt;
+# -s for series and -d for delemiter
