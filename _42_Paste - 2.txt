@@ -1,0 +1,8 @@
+
+cat >>file.txt;# # for passing the string to find using the cat command  >>>,for appending the text to the the  file  >> using the cat command ,for passing the text to  file > from cat commnad 
+# now here it will hold till input is given to file then file.txt will have the input till next line 
+
+
+cat file.txt | paste -s -d ";;\n"  - - -;
+# -s for series and -d for delemiter
+# ; ; \n mensa first apply first semicolon then apply 2nd semicolin then apply the nextline ,-d for delimiet ,-s for putting in series ie in one line 
