@@ -1,0 +1,23 @@
+cat >> file.txt;
+# >> for appending ,> for adding the text,for >>> for addding the string 
+
+
+head -n 8 file.txt |tail -n 5| paste -s;
+
+#so by head first 8 comes then | through pipe output goes to command tail ,the file name is not needed ,in that output last 5 will be selected by tail then pasted in series  
+
+# | is the sign of pipe ie whatever the output comes out of it head -n 22 file.txt  it goes to command tail -n 11
+
+# # for passing the string to find using the cat command  >>>,for appending the text to the the  file  >> using the cat command ,for passing the text to  file > from cat commnad 
+# now here it will hold till input is given to file then file.txt will have the input till next line 
+
+
+# -n to tell number of line it has to print from file.txt from top
+
+
+
+#paste -s line.txt;
+
+# file line.txt is created  then standard input is given ie input given to program #Paste command is one of the useful commands in Unix or Linux operating system. It is used to join files horizontally (parallel merging) by outputting lines consisting of lines from each file specified, separated by tab as delimiter, to the standard output. When no file is specified, or put dash - instead of file name, paste reads from standard input and gives output as it is until a interrupt command Ctrl c is given. 
+
+#-s (serial) We can merge the files in sequentially manner using the -s option. It reads all the lines from a single file and merges all these lines into a single line with each line separated by tab. And these single lines are separated by newline.
