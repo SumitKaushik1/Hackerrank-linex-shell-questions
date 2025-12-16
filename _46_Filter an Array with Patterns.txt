@@ -1,0 +1,9 @@
+cat >> file.txt;
+#here all the words from the standard input are in the file.txt 
+
+cut -d 'a' -f5 file.txt | tr -d '\n';
+
+# -d for the  to specify the dilimiter ie 'a' ie divide the words by the a character now  then we are printing the 5th column (many columns will be formed in this)
+
+
+# tr command to replace or delete ,-d  for delete  , \n to nextline
