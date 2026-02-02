@@ -1,0 +1,4 @@
+cat >> file.txt;
+cat file.txt | grep -w -i 'the';
+# -w ,as the whole word the ,not suffix like ethe or the thee not allowed only 'the' 
+# -i , for the case insensitive
