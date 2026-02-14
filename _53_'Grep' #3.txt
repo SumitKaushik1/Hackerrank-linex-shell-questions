@@ -1,0 +1,4 @@
+cat >> file.txt;
+cat file.txt | grep  -i -v 'that';
+# - i for case insensitve 
+#- v of removing this particluar patten ie that 
