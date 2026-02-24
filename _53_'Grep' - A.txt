@@ -1,0 +1,8 @@
+cat >> file.txt;
+cat file.txt | grep  -i -w -e  'the' -e 'that' -e  'then' -e  'those' 
+# lines added to file.txt
+# show all the lines by cat commnand 
+# then grep is used to get the pattern 
+# -i is for the case insensitive  ie ignores the pattern 
+# - e we can provide the multiple lines
+# -w is for the whole exact word
