@@ -1,0 +1,11 @@
+cat >> file.txt
+ #cat file.txt | grep -E '11|1 1|22|2 2|33|3 3|44|4 4|55|5 5|66|6 6|77|7 7|88|8 8|99|9 9|00|0 0'
+# lines added to file.txt
+# show all the lines by cat commnand 
+# then grep is used to get the pattern 
+# -i is for the case insensitive  ie ignores the pattern 
+# - e we can provide the multiple lines
+# -w is for the whole exact word
+
+
+cat file.txt |  grep '\(\d\)\s*\1' 
